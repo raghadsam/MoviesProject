@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MoviesProject/static/css/main.1c1f786b.chunk.css",
-    "main.js": "/MoviesProject/static/js/main.355e3a45.chunk.js",
-    "main.js.map": "/MoviesProject/static/js/main.355e3a45.chunk.js.map",
+    "main.js": "/MoviesProject/static/js/main.53669f6a.chunk.js",
+    "main.js.map": "/MoviesProject/static/js/main.53669f6a.chunk.js.map",
     "runtime-main.js": "/MoviesProject/static/js/runtime-main.1cbd261a.js",
     "runtime-main.js.map": "/MoviesProject/static/js/runtime-main.1cbd261a.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/MoviesProject/static/css/2.4c97ca4f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.6777bdbd.chunk.js",
     "static/css/main.1c1f786b.chunk.css",
-    "static/js/main.355e3a45.chunk.js"
+    "static/js/main.53669f6a.chunk.js"
   ]
 }
