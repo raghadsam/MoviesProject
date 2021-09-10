@@ -8,14 +8,14 @@ export default function SearchBox(props) {
   const [showHide, setShowHide] = useState(false);
 
   function handleChange(e) {
-    console.log(e.target.value);
     setInput(e.target.value);
-    setShowHide((prevState) => !prevState);
+    setShowHide(true);
   }
 
   function handleSubmit(e) {
     e.preventDefault();
     props.function(input, "search/movie");
+    setShowHide(false);
   }
   return (
     <>

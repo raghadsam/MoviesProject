@@ -23,11 +23,11 @@ export const constructGenre = (id) => {
 
 function App() {
   const [movies, setMovies] = useState([]);
+
   function handleMovies(query, path) {
     fetch(constructUrl(query, path))
       .then((resp) => resp.json())
       .then((data) => {
-        console.log(data.results);
         setMovies(data.results);
       })
       .catch((err) => {
@@ -50,8 +50,6 @@ function App() {
     fetch(constructGenre(id))
       .then((resp) => resp.json())
       .then((data) => {
-        console.log(data.results);
-        console.log(id);
         setMovies(data.results);
       })
       .catch((err) => {
